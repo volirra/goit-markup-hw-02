@@ -5,66 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo" href="./index.html">WebStudio</a>
+        <ul class="header-list">
+          <li class="header-item"><a class="header-link" href="">Studio</a></li>
+          <li class="header-item">
+            <a class="header-link" href="">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-address">
+        <ul class="header-address-list">
+          <li class="header-item">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="button-btn" type="button">Order Service</button>
       </section>
-      <section>
-        <h2 hidden>Description</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="description">
+        <h2 class="hidden" hidden>Description</h2>
+        <ul class="description-list list">
+          <li class="description-item">
+            <h3 class="description-title">Strategy</h3>
+            <p class="description-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="description-item">
+            <h3  class="description-title">Punctuality</h3>
+            <p class="description-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="description-item">
+            <h3 class="description-title">Diligence</h3>
+            <p class="description-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="description-item">
+            <h3 class="description-title">Technologies</h3>
+            <p class="description-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+      <section class="work">
+        <h2 class="work-title">What are we doing</h2>
+        <ul class="work-list">
+          <li class="work-item">
             <img
               src="./images/picter-1.jpg"
               alt="picter"
@@ -72,7 +87,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="work-item">
             <img
               src="./images/picter-2.jpg"
               alt="picter"
@@ -80,7 +95,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="work-item" >
             <img
               src="./images/picter-3.jpg"
               alt="picter"
