@@ -1,8 +1,14 @@
-:root
+:root{
+    --color-body: #434455;
+    --brand-color: #fff;
+    --hover-order: #404bbf;
+    --button-normal: #4d5ae5;
+}
+
 body {
-  font-family: "roboto" sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color);
+  background-color:var(--color-body);
 }
 
 .list {
@@ -10,34 +16,61 @@ body {
 }
 
 .link{
-    text-decoration: none;
+   text-decoration: none;
 }
 
+.item{
+    list-style: none;
+    text-decoration: none;
+}
 /*-----Header-----*/
 
 .header {
-  background-color: white;
-}
-
-.header-navigation {
-}
-.header-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-}
-.header-list {
-}
-.header-item {
-}
-.header-link {
+  box-sizing: border-box;
+  position: absolute;
   width: 1440px;
   height: 72px;
   left: 0px;
   top: 0px;
-  background: #ffffff;
+  background-color: var(--brand-color);
+  border-bottom: #e7e9fc;
+}
+
+.header-navigation {
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-body);
+}
+.header-list {
+    font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-item {
+}
+.header-link {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
 }
 
 .header-address {
@@ -72,16 +105,16 @@ body {
     border-radius: 4px;
     font-style: normal;
     font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: var(--brand-color--);
-  flex: none
-  order: 0;
-  flex-grow: 0;
-  }
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--brand-color--);
+    flex: none
+    order: 0;
+    flex-grow: 0;
+}
 
 /*-----Description-----*/
 .description {
@@ -116,4 +149,28 @@ color: #434455;
 .work-list {
 }
 .work-item {
+}
+/*-----Team-----*/
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-text {
+}
+
+/*-----Footer-----*/
+
+.footer {
+}
+.logo {
+}
+.link {
+}
+.foter {
+}
+.text {
 }
