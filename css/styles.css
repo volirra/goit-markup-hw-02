@@ -1,0 +1,309 @@
+:root {
+    --color-body: #fff;
+    --color-hover: #404bbf;
+    --color-button: #4d5ae5;
+    --color-footer: #2e2f42;
+    --color-section: #e7e9fc;
+    --color-address: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-hover);
+  background-color:var(--color-body);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+   text-decoration: none;
+}
+
+.item {
+    list-style: none;
+    text-decoration: none;
+}
+/*-----Header-----*/
+
+.header {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  background-color: var(--brand-color);
+  border-bottom: #e7e9fc;
+}
+
+.header-navigation {
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-body);
+}
+.header-list {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-item:is(:hover, :focus){
+    color: #404bbf;
+}
+
+.header-mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;  
+}
+
+.header-mail:is(:hover, :focus){
+    color: #404bbf;
+}
+
+.header-link {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-body);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-span{
+
+}
+
+/*-----Hero-----*/
+
+.hero {
+position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+background: #2E2F42;
+}
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--color-button--);
+    flex: none
+    order: 0;
+    flex-grow: 0;
+}
+
+.hero-btn :hover, :focus {
+  background-color: #404bbf;
+}
+
+*-----Description-----*/
+
+.description {
+}
+
+.hidden {
+}
+
+.description-list {
+}
+
+.description-item {
+}
+
+.description-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.description-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/*-----Work-----*/
+
+.work {
+  background: #E5E5E5;
+}
+
+.work-title {
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+
+}
+.work-list {
+}
+
+.work-item {
+}
+
+/*-----Team-----*/
+
+.team {
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/*-----Footer-----*/
+
+.footer {
+position: absolute;
+width: 1440px;
+height: 312px;
+left: 0px;
+top: 2280px;
+background: #2E2F42;
+}
+.logo {
+}
+
+.link {
+}
+
+.text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+
+.button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+}
+
+.button-list {
+}
+
+.list {
+}
+
+.button-link {
+}
+
+.portfolio-btn {
+}
+
+.link {
+}
+
+.gallery-link {
+}
+
+.gallery {
+}
+
+.gallery-list {
+}
+
+.gallery-item {
+}
+
+.gallery-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.gallery-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
