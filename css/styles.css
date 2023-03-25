@@ -41,7 +41,7 @@ body {
 .header-navigation {
 }
 
-.header-logo-web link {
+.header-logo-web {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -53,7 +53,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo-studio link {
+.header-logo-studio {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -122,6 +122,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
+background-color: #2e2f42;
 color: #FFFFFF;
 }
 
