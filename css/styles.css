@@ -10,7 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color:var( --color-body:)
-  color:;
+  color:var(#2e2f42);
   }
 
 .list {
