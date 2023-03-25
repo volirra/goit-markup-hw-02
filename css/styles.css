@@ -9,8 +9,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color:var( --color-body)
-  color: var(--color-footer);
+  background-color:var( --color-body);
+  color: #434455;
   }
 
 .list {
@@ -47,22 +47,20 @@ body {
   font-size: 18px;
   line-height: 1.17;
   display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
+.header-logo-studio {                                     
+  font-family: "Raleway", sans-serif;                   
+  font-style: normal;                             
+  font-weight: 800;                                     
+  font-size: 18px;                                
+  line-height: 1.17;                          
   display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
+  letter-spacing: 0.03em;                         
+  text-transform: uppercase;                        
+  color: #2e2f42;         
 }
 .header-item {
     font-weight: 500;
@@ -174,11 +172,11 @@ color: #434455;
 /*-----Work-----*/
 
 .work {
-  background: #E5E5E5;
+background: #E5E5E5;
 }
 
 .work-title {
- font-weight: 700;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -204,10 +202,10 @@ text-transform: capitalize;
 color: #2E2F42;
 }
 
-.team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
+.team-title name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
@@ -237,27 +235,25 @@ top: 2280px;
 background: var(--color-footer);
 color: #f4f4fd;
 }
-.footer-logo {
+.footer-logo web {
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
 
-.footer-logo second {
+.footer-logo studio {
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
