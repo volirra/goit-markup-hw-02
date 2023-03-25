@@ -9,8 +9,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color:#fff;
-  color: #434455;
+  background-color:var( --color-body:)
+  color:;
   }
 
 .list {
