@@ -9,8 +9,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color:var( --color-body:)
-  color:var(#2e2f42);
+  background-color:var( --color-body)
+  color: var(--color-footer);
   }
 
 .list {
@@ -29,7 +29,6 @@ body {
 
 .header {
   box-sizing: border-box;
-  position: absolute;
   width: 1440px;
   height: 72px;
   left: 0px;
@@ -108,7 +107,6 @@ body {
 /*-----Hero-----*/
 
 .hero {
-position: absolute;
 width: 1440px;
 height: 600px;
 left: 0px;
@@ -210,7 +208,6 @@ color: #2E2F42;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
-text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
@@ -226,7 +223,6 @@ color: #2E2F42;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -234,13 +230,12 @@ color: #434455;
 /*-----Footer-----*/
 
 .footer {
-position: absolute;
 width: 1440px;
 height: 312px;
 left: 0px;
 top: 2280px;
-background: #2E2F42;
-color: #F4F4FD;
+background: var(--color-footer);
+color: #f4f4fd;
 }
 .footer-logo {
 font-family: 'Raleway';
