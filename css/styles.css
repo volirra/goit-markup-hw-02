@@ -5,12 +5,14 @@
     --color-footer: #2e2f42;
     --color-section: #e7e9fc;
     --color-address: #434455;
-}
+    --color-cloud: #f4f4fd;
+    --color-gaierry: #e5e5e5;
+  }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color:var( --color-body);
-  color: #434455;
+  color:var(--color-address);
   }
 
 .list {
@@ -22,8 +24,8 @@ body {
 }
 
 .item {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 /*-----Header-----*/
 
@@ -35,7 +37,7 @@ body {
 .header-navigation {
 }
 
-.header-logo-web link{
+.header-logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -69,11 +71,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;  
+  color:var(--color-address);  
 }
 
 .header-mail:is(:hover, :focus){
-    color:#404bbf;
+  color:var(--color-hover);
 }
 
 .header-link {
@@ -81,7 +83,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--color-footer);
 }
 
 .header-address {
@@ -93,7 +95,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:
+  color: var(--color-hover);
 }
 
 .header-span{
@@ -107,8 +109,8 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 text-decoration: none;
-background: #4d5ae5;
-color: #000;
+background:var(--color-footer);
+color:var(--color-body);
 }
 
 .hero-title {
@@ -117,8 +119,8 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-background-color: #2e2f42;
-color: #FFFFFF;
+background-color: var(--color-footer);
+color: var(--color-body);
 }
 
 .hero-btn {
@@ -155,7 +157,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color:var(--color-footer);
 }
 
 .description-text {
@@ -163,13 +165,13 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color:var(--color-address);
 }
 
 /*-----Work-----*/
 
 .work {
-background: #E5E5E5;
+background: var(--color-section);
 }
 
 .work-title {
@@ -179,7 +181,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--color-address);
 
 }
 .work-list {
@@ -191,7 +193,7 @@ color: #2E2F42;
 /*-----Team-----*/
 
 .team {
-background-color: #f4f4fd;
+background-color: var(--color-button--);
 }
 
 .team-title {
@@ -201,7 +203,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--color-footer);
 }
 
 .team-title-name{
@@ -210,7 +212,7 @@ font-size: 20px;
 line-height: 1.2px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--color-footer);
 }
 
 .team-list {
@@ -224,26 +226,20 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--color-address);
 }
 
 /*-----Footer-----*/
 
 .footer {
-width: 1440px;
-height: 312px;
-left: 0px;
-top: 2280px;
 background: var(--color-footer);
-color: #f4f4fd;
+color: var(--color-cloud);
 }
-.footer-logo-web link {
+.footer-logo-web {
 font-family: "Raleway", sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-button--);
@@ -251,14 +247,12 @@ color: var(--color-button--);
 
 .footer-logo-studio {
 font-family: "Raleway", sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: var(--color-cloud);
 }
 .link {
 }
@@ -268,12 +262,12 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--color-cloud);
 }
 
 
 .gallery {
-  background: #E5E5E5;
+  background: var( --color-gaierry);
 }
 
 .button {
@@ -284,7 +278,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #4D5AE5;
+color: var(--color-button);
 }
 
 .button-list {
@@ -316,7 +310,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--color-footer);
 }
 
 .gallery-text {
@@ -324,5 +318,5 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--color-address);
 }
