@@ -6,7 +6,7 @@
     --color-section: #e7e9fc;
     --color-address: #434455;
     --color-cloud: #f4f4fd;
-    --color-gaierry: #e5e5e5;
+    --color-galerry: #e5e5e5;
   }
 
 body {
@@ -130,7 +130,8 @@ color: var(--color-body);
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  color: var(--color-button--);
+  background-color: var(--color-button);
+  color: var(--color-button);
   cursor: pointer;
 }
 
@@ -181,7 +182,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(--color-address);
+color: var(--color-footer);
 
 }
 .work-list {
@@ -193,7 +194,7 @@ color: var(--color-address);
 /*-----Team-----*/
 
 .team {
-background-color: var(--color-button--);
+background-color: var(--color-cloud);
 }
 
 .team-title {
@@ -242,7 +243,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--color-button--);
+color: var(--color-button);
 }
 
 .footer-logo-studio {
@@ -267,7 +268,7 @@ color: var(--color-cloud);
 
 
 .gallery {
-  background: var( --color-gaierry);
+  background: var( --color-galerry);
 }
 
 .button {
