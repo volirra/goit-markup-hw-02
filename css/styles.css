@@ -67,19 +67,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .header-item:is(:hover, :focus){
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .header-mail {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;  
 }
 
 .header-mail:is(:hover, :focus){
@@ -98,8 +98,15 @@ body {
   font-style: normal;
 }
 
-.header-span{
+.header-address-list link {
+font-weight: 800;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:
+}
 
+.header-span{
 }
 
 /*-----Hero-----*/
@@ -196,19 +203,20 @@ color: #2E2F42;
 /*-----Team-----*/
 
 .team {
-background-color: #fff;
+background-color: #f4f4fd;
 }
 
 .team-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
 }
 
-.team-title name{
+.team-title-name{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2px;
@@ -275,6 +283,11 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 }
 
+
+.gallery {
+  background: #E5E5E5;
+}
+
 .button {
 font-weight: 500;
 font-size: 16px;
@@ -302,10 +315,6 @@ color: #4D5AE5;
 }
 
 .gallery-link {
-}
-
-.gallery {
-  background: #E5E5E5;
 }
 
 .gallery-list {
