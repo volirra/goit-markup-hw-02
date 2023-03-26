@@ -1,26 +1,26 @@
 :root {
-    --color-body: #fff;
-    --color-hover: #404bbf;
-    --color-button: #4d5ae5;
-    --color-footer: #2e2f42;
-    --color-section: #e7e9fc;
-    --color-address: #434455;
-    --color-cloud: #f4f4fd;
-    --color-galerry: #e5e5e5;
-  }
+  --color-body: #fff;
+  --color-hover: #404bbf;
+  --color-button: #4d5ae5;
+  --color-footer: #2e2f42;
+  --color-section: #e7e9fc;
+  --color-address: #434455;
+  --color-cloud: #f4f4fd;
+  --color-gallery: #e5e5e5;
+}
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color:var( --color-body);
-  color:var(--color-address);
-  }
+  background-color: var(--color-body);
+  color: var(--color-address);
+}
 
 .list {
   list-style: none;
 }
 
 .link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .item {
@@ -44,16 +44,16 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:var(--color-button);
+  color: var(--color-button);
 }
-.header-logo-studio {                                     
-  font-family: "Raleway", sans-serif;       
-  font-weight: 800;                                     
-  font-size: 18px;                                
-  line-height: 1.17;                          
-  letter-spacing: 0.03em;                         
-  text-transform: uppercase;                        
-  color: var(--color-footer);         
+.header-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-footer);
 }
 .header-item {
   font-weight: 500;
@@ -63,7 +63,7 @@ body {
   color: var(--color-footer);
 }
 
-.header-item:is(:hover, :focus){
+.header-item:is(:hover, :focus) {
   color: var(--color-hover);
 }
 
@@ -71,11 +71,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--color-address);  
+  color: var(--color-address);
 }
 
-.header-mail:is(:hover, :focus){
-  color:var(--color-hover);
+.header-mail:is(:hover, :focus) {
+  color: var(--color-hover);
 }
 
 .header-link {
@@ -83,7 +83,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-footer);
+  text-decoration: none;
+  color: var(--color-button);
 }
 
 .header-address {
@@ -98,29 +99,29 @@ body {
   color: var(--color-hover);
 }
 
-.header-span{
+.header-span {
 }
 
 /*-----Hero-----*/
 
 .hero {
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-text-decoration: none;
-background:var(--color-footer);
-color:var(--color-body);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  background: var(--color-footer);
+  color: var(--color-body);
 }
 
 .hero-title {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-background-color: var(--color-footer);
-color: var(--color-body);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background-color: var(--color-footer);
+  color: var(--color-body);
 }
 
 .hero-btn {
@@ -135,13 +136,12 @@ color: var(--color-body);
   cursor: pointer;
 }
 
-.hero-btn :hover, :focus {
+.hero-btn :hover,
+:focus {
   background-color: var(--color-hover);
 }
 
-*-----Description-----*/
-
-.description {
+*-----Description-----*/ .description {
 }
 
 .hidden {
@@ -154,36 +154,35 @@ color: var(--color-body);
 }
 
 .description-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:var(--color-footer);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-footer);
 }
 
 .description-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:var(--color-address);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-address);
 }
 
 /*-----Work-----*/
 
 .work {
-background: var(--color-section);
+  background: var(--color-section);
 }
 
 .work-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--color-footer);
-
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-footer);
 }
 .work-list {
 }
@@ -194,26 +193,26 @@ color: var(--color-footer);
 /*-----Team-----*/
 
 .team {
-background-color: var(--color-cloud);
+  background-color: var(--color-cloud);
 }
 
 .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize;
-color: var(--color-footer);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-footer);
 }
 
-.team-title-name{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2px;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--color-footer);
+.team-title-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-footer);
 }
 
 .team-list {
@@ -223,63 +222,61 @@ color: var(--color-footer);
 }
 
 .team-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-address);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-address);
 }
 
 /*-----Footer-----*/
 
 .footer {
-background: var(--color-footer);
-color: var(--color-cloud);
+  background: var(--color-footer);
+  color: var(--color-cloud);
 }
 .footer-logo-web {
-font-family: "Raleway", sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--color-button);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-button);
 }
 
 .footer-logo-studio {
-font-family: "Raleway", sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--color-cloud);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-cloud);
 }
 .link {
 }
 
 .text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-cloud);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
 }
 
-
 .gallery {
-  background: var( --color-galerry);
+  background: var(--color-gallery);
 }
 
 .button {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: var(--color-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-button);
 }
 
 .button-list {
@@ -292,6 +289,15 @@ color: var(--color-button);
 }
 
 .portfolio-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--color-button);
+  background-color: var(--color-cloud);
 }
 
 .link {
@@ -307,17 +313,16 @@ color: var(--color-button);
 }
 
 .gallery-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--color-footer);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-footer);
 }
 
 .gallery-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-address);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-address);
 }
