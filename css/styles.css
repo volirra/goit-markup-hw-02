@@ -250,7 +250,7 @@ background: var(--color-footer);
 color: #f4f4fd;
 }
 .footer-logo web {
-font-family: 'Raleway';
+font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -262,7 +262,7 @@ color: #4d5ae5;
 }
 
 .footer-logo studio {
-font-family: 'Raleway';
+font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
