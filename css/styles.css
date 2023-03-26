@@ -105,11 +105,13 @@ body {
 /*-----Hero-----*/
 
 .hero {
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+text-decoration: none;
 background: #2E2F42;
+color: #000;
 }
 
 .hero-title {
@@ -123,16 +125,16 @@ color: #FFFFFF;
 }
 
 .hero-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: var(--color-button--);
-    flex: none
-    order: 0;
-    flex-grow: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-button--);
+  flex: none
+  cursor: pointer;
 }
 
 .hero-btn :hover, :focus {
