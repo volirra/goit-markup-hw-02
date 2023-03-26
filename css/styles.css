@@ -289,7 +289,7 @@ body {
 }
 
 .portfolio-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -298,6 +298,11 @@ body {
   cursor: pointer;
   color: var(--color-button);
   background-color: var(--color-cloud);
+}
+
+.portfolio-btn :hover, :focus {
+  background-color: var(--color-hover) ;
+  color: var(--color-body);
 }
 
 .link {
