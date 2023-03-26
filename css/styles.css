@@ -194,6 +194,10 @@ color: #2E2F42;
 /*-----Team-----*/
 
 .team {
+background-color: #fff;
+}
+
+.team-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
