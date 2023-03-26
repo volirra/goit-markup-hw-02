@@ -49,7 +49,7 @@ body {
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color:var(--color-button);
 }
 .header-logo-studio {                                     
   font-family: "Raleway", sans-serif;                   
@@ -67,11 +67,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-footer);
 }
 
 .header-item:is(:hover, :focus){
-  color: #404bbf;
+  color: var(--color-hover);
 }
 
 .header-mail {
@@ -117,7 +117,7 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 text-decoration: none;
-background: #2E2F42;
+background: #4d5ae5;
 color: #000;
 }
 
@@ -145,7 +145,7 @@ color: #FFFFFF;
 }
 
 .hero-btn :hover, :focus {
-  background-color: #404bbf;
+  background-color: var(--color-hover);
 }
 
 *-----Description-----*/
