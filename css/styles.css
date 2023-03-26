@@ -300,8 +300,9 @@ body {
   background-color: var(--color-cloud);
 }
 
-.portfolio-btn :hover, :focus {
-  background-color: var(--color-hover) ;
+.portfolio-btn :hover,
+:focus {
+  background-color: var(--color-hover);
   color: var(--color-body);
 }
 
