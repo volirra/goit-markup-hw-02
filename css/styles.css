@@ -28,11 +28,6 @@ body {
 /*-----Header-----*/
 
 .header {
-  box-sizing: border-box;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
   background-color: var(--color-body);
   border-bottom: 1px solid#e7e9fc;
 }
@@ -42,25 +37,21 @@ body {
 
 .header-logo-web link{
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--color-button);
 }
 .header-logo-studio {                                     
-  font-family: "Raleway", sans-serif;                   
-  font-style: normal;                             
+  font-family: "Raleway", sans-serif;       
   font-weight: 800;                                     
   font-size: 18px;                                
   line-height: 1.17;                          
-  display: flex;
   letter-spacing: 0.03em;                         
   text-transform: uppercase;                        
-  color: #2e2f42;         
+  color: var(--color-footer);         
 }
 .header-item {
   font-weight: 500;
@@ -75,7 +66,6 @@ body {
 }
 
 .header-mail {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -83,7 +73,7 @@ body {
 }
 
 .header-mail:is(:hover, :focus){
-    color: #404bbf;
+    color:#404bbf;
 }
 
 .header-link {
@@ -136,11 +126,9 @@ color: #FFFFFF;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--color-button--);
-  flex: none
   cursor: pointer;
 }
 
