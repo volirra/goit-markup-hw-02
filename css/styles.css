@@ -55,13 +55,7 @@ body {
 }
 
 .header-navigation-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-footer);
-  cursor: pointer;
-  }
+}
 
 .header-mail {
   font-size: 16px;
@@ -74,7 +68,7 @@ body {
   color: var(--color-hover);
 }
 
-.header-link link{
+.header-link link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -126,15 +120,12 @@ body {
   cursor: pointer;
 }
 
-.hero-btn is(:hover, :focus)  { 
+.hero-btn is(:hover, :focus) {
   background-color: var(--color-hover);
   color: var(--color-body);
 }
 
-
-*-----Description-----*/
-
-.description {
+*-----Description-----*/ .description {
 }
 
 .hidden {
@@ -302,8 +293,8 @@ body {
   background-color: var(--color-cloud);
 }
 
-.portfolio-btn:is(:hover, :focus) { 
-  background-color: var(--color-hover);  
+.portfolio-btn:is(:hover, :focus) {
+  background-color: var(--color-hover);
   color: var(--color-body);
 }
 
