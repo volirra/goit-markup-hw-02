@@ -205,11 +205,8 @@ body {
   color: var(--color-footer);
 }
 
-.team-list list {
-  background-color: var(--color-body);
-}
-
 .team-item {
+  background-color: #fff;
 }
 
 .team-text {
