@@ -120,7 +120,8 @@ body {
   cursor: pointer;
 }
 
-.hero-btn is(:hover, :focus) {
+.button :hover,
+:focus {
   background-color: var(--color-hover);
   color: var(--color-body);
 }
