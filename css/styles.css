@@ -105,13 +105,8 @@ body {
 /*-----Hero-----*/
 
 .hero {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
   text-decoration: none;
   background: var(--color-footer);
-  color: var(--color-body);
 }
 
 .hero-title {
@@ -120,7 +115,6 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  background-color: var(--color-footer);
   color: var(--color-body);
 }
 
@@ -129,7 +123,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   background-color: var(--color-button);
   color: var(--color-button);
@@ -139,6 +132,7 @@ body {
 .hero-btn :hover,
 :focus {
   background-color: var(--color-hover);
+  color: var(--color-body);
 }
 
 *-----Description-----*/ .description {
@@ -264,8 +258,21 @@ body {
   color: var(--color-cloud);
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.item {
+  list-style: none;
+  text-decoration: none;
+}
+
 .gallery {
-  background: var(--color-gallery);
+  background: var(--color-body);
 }
 
 .button {
