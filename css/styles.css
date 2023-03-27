@@ -73,7 +73,7 @@ body {
   color: var(--color-hover);
 }
 
-.header-link .link{
+.header-link link{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -182,13 +182,13 @@ body {
 /*-----Team-----*/
 
 .team {
-  background-color: var(--color-body);
+  background-color: var(--color-cloud);
 }
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
