@@ -124,7 +124,7 @@ body {
   cursor: pointer;
 }
 
-.hero-btn :hover, :focus {
+.hero-btn is(:hover, :focus)  {
   background-color: var(--color-hover);
 }
 
@@ -182,13 +182,13 @@ body {
 /*-----Team-----*/
 
 .team {
-  background-color: var(--color-cloud);
+  background-color: var(--color-body);
 }
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -301,8 +301,7 @@ body {
   background-color: var(--color-cloud);
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus  {
+.portfolio-btn:is(:hover, :focus) { 
   background-color: var(--color-hover);  
   color: var(--color-body);
 }
