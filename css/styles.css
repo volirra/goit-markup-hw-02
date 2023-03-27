@@ -124,14 +124,14 @@ body {
   cursor: pointer;
 }
 
-.hero-btn :hover {
-  background-color: var(--color-hover);
-}
-.hero-btn:focus {
+.hero-btn :hover, :focus {
   background-color: var(--color-hover);
 }
 
-*-----Description-----*/ .description {
+
+*-----Description-----*/
+
+.description {
 }
 
 .hidden {
@@ -152,7 +152,6 @@ body {
 }
 
 .description-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -296,18 +295,15 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--color-button);
   background-color: var(--color-cloud);
 }
 
-.portfolio-btn :hover{
+.portfolio-btn:hover,
+.portfolio-btn:focus  {
   background-color: var(--color-hover);  
-}
-.portfolio-btn :focus {
-  background-color: var(--color-hover);
   color: var(--color-body);
 }
 
