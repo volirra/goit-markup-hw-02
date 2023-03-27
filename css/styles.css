@@ -5,7 +5,7 @@
   --color-footer: #2e2f42;
   --color-address: #434455;
   --color-cloud: #f4f4fd;
-  }
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -120,14 +120,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--color-button);
-  color: var(--color-button);
+  color: var(--color-body);
   cursor: pointer;
 }
 
-.hero-btn :hover,
-:focus {
+.hero-btn :hover {
   background-color: var(--color-hover);
-  color: var(--color-body);
+}
+.hero-btn:focus {
+  background-color: var(--color-hover);
 }
 
 *-----Description-----*/ .description {
@@ -182,7 +183,7 @@ body {
 /*-----Team-----*/
 
 .team {
-  background-color: var(--color-body);
+  background-color: var(--color-cloud);
 }
 
 .team-title {
@@ -191,6 +192,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: var(--color-footer);
 }
 
@@ -301,8 +303,10 @@ body {
   background-color: var(--color-cloud);
 }
 
-.portfolio-btn :hover,
-:focus {
+.portfolio-btn :hover{
+  background-color: var(--color-hover);  
+}
+.portfolio-btn :focus {
   background-color: var(--color-hover);
   color: var(--color-body);
 }
