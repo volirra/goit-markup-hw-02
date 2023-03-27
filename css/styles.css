@@ -80,7 +80,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--color-button);
+  color: var(--color-footer);
+  cursor: pointer;
 }
 
 .header-address {
