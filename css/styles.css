@@ -3,11 +3,9 @@
   --color-hover: #404bbf;
   --color-button: #4d5ae5;
   --color-footer: #2e2f42;
-  --color-section: #e7e9fc;
   --color-address: #434455;
   --color-cloud: #f4f4fd;
-  --color-gallery: #e5e5e5;
-}
+  }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -31,7 +29,7 @@ body {
 
 .header {
   background-color: var(--color-body);
-  border-bottom: 1px solid#e7e9fc;
+  color: var(--color-address);
 }
 
 .header-navigation {
@@ -55,16 +53,13 @@ body {
   text-transform: uppercase;
   color: var(--color-footer);
 }
+
 .header-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-footer);
-}
-
-.header-item:is(:hover, :focus) {
-  color: var(--color-hover);
 }
 
 .header-mail {
@@ -119,7 +114,7 @@ body {
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -204,6 +199,7 @@ body {
   font-size: 20px;
   line-height: 1.2px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--color-footer);
 }
 
