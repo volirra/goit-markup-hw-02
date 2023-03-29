@@ -126,7 +126,7 @@ body {
 }
 
 .button :hover,
-.button :focus {
+:focus {
   background-color: var(--color-hover);
   color: var(--color-body);
 }
