@@ -80,7 +80,7 @@ body {
 
 .header-navigation-list :hover,
  :focus {
-  color: var (--color-hover)
+  color: var (--color-hover);
 }
 
 .header-address {
