@@ -78,8 +78,8 @@ body {
   cursor: pointer;
 }
 
-.header-navigation-link :hover,
-.header-navigation-link :focus {
+.header-navigation-list .link:hover,
+.header-navigation-list .link:focus {
   color: var (--color-hover)
 }
 
