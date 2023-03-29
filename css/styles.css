@@ -128,7 +128,7 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--color-hover);
-  color:var(--color-body);
+  color: var(--color-body);
 }
 
 *-----Description-----*/ 
