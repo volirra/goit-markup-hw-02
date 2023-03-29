@@ -79,7 +79,7 @@ body {
 }
 
 .header-navigation-list :hover,
-.header-navigation-list :focus {
+ :focus {
   color: var (--color-hover)
 }
 
