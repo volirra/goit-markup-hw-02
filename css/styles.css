@@ -127,11 +127,13 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color:var(--color-hover);
-  color:var(--color-body);
+  background-color: var(--color-hover);
+  color: var(--color-body);
 }
 
-*-----Description-----*/ .description {
+*-----Description-----*/ 
+
+.description {
 }
 
 .hidden {
