@@ -78,8 +78,8 @@ body {
   cursor: pointer;
 }
 
-.header-navigation-link .link:hover,
-.link:focus {
+.header-navigation-link:hover,
+.header-navigation-link:focus {
   color: var (--color-hover);
 }
 
@@ -125,8 +125,8 @@ body {
   cursor: pointer;
 }
 
-.button .class:hover,
-.class:focus {
+.button:hover,
+.button:focus {
   background-color: var(--color-hover);
   color: var(--color-body);
 }
