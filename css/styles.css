@@ -78,8 +78,7 @@ body {
   cursor: pointer;
 }
 
-.header-navigation-list :hover,
- :focus {
+.header-navigation-list:is(:hover, :focus) {
   color: var (--color-hover);
 }
 
@@ -125,8 +124,7 @@ body {
   cursor: pointer;
 }
 
-.button :hover,
-:focus {
+.button :is(:hover, :focus) {
   background-color: var(--color-hover);
   color: var(--color-body);
 }
