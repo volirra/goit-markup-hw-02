@@ -131,7 +131,9 @@ body {
   color: var(--color-body);
 }
 
-*-----Description-----*/ .description {
+*-----Description-----*/ 
+
+.description {
 }
 
 .hidden {
