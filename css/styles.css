@@ -125,10 +125,10 @@ body {
   cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--color-hover);
-  color: var(--color-body);
+.button:hover,
+.button:focus {
+  background-color:var(--color-hover);
+  color:var(--color-body);
 }
 
 *-----Description-----*/ .description {
