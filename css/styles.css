@@ -78,7 +78,8 @@ body {
   cursor: pointer;
 }
 
-.header-navigation-list:is(:hover, :focus) {
+.header-navigation-link .class:hover,
+.class:focus {
   color: var (--color-hover);
 }
 
@@ -124,14 +125,13 @@ body {
   cursor: pointer;
 }
 
-.button :is(:hover, :focus) {
+.button .class:hover,
+.class:focus {
   background-color: var(--color-hover);
   color: var(--color-body);
 }
 
-*-----Description-----*/ 
-
-.description {
+*-----Description-----*/ .description {
 }
 
 .hidden {
