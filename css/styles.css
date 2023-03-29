@@ -120,15 +120,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--color-button);
+  border: transparent;
   color: var(--color-body);
+  background-color: var(--color-button);
   cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--color-hover);
   color: var(--color-body);
+  background-color: var(--color-hover);
 }
 
 *-----Description-----*/ 
